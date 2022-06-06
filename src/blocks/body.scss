@@ -1,0 +1,14 @@
+@import "../fonts.scss";
+
+body {
+  display: flex;
+  height: 100vh;
+  font-family: "Greycliff CF";
+
+  overflow: hidden;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    overflow: visible;
+  }
+}
