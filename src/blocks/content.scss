@@ -9,7 +9,7 @@
 
   &::before {
     transition: all .5s;
-    content: url(../src/images/content/background.svg);
+    content: url(../../src/images/content/background.svg);
     position: absolute;
     z-index: -1;  
 
@@ -22,7 +22,7 @@
       left: 0;
       right: 0;
 
-      background-image: url(../src/images/content/small-background.svg);
+      background-image: url(../../src/images/content/small-background.svg);
       background-repeat: no-repeat;
       background-size: cover;     
     }
@@ -60,7 +60,7 @@
       &:nth-child(#{$i}) {
         .content__card-list {
           .content__card-item::before {
-            background-image: url(../src/images/content/cards/ticks/#{$i}.svg);
+            background-image: url(../../src/images/content/cards/ticks/#{$i}.svg);
             background-color: $color;
           }
         }

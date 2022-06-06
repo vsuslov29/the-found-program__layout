@@ -217,7 +217,7 @@ body {
 }
 .content::before {
   transition: all 0.5s;
-  content: url(../src/images/content/background.svg);
+  content: url(../../src/images/content/background.svg);
   position: absolute;
   z-index: -1;
   filter: var(--filter, "");
@@ -229,7 +229,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(../src/images/content/small-background.svg);
+    background-image: url(../../src/images/content/small-background.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -259,23 +259,23 @@ body {
   border-radius: 10px;
 }
 .content__card:nth-child(1) .content__card-list .content__card-item::before {
-  background-image: url(../src/images/content/cards/ticks/1.svg);
+  background-image: url(../../src/images/content/cards/ticks/1.svg);
   background-color: #E6E6F8;
 }
 .content__card:nth-child(2) .content__card-list .content__card-item::before {
-  background-image: url(../src/images/content/cards/ticks/2.svg);
+  background-image: url(../../src/images/content/cards/ticks/2.svg);
   background-color: #E2EEFF;
 }
 .content__card:nth-child(3) .content__card-list .content__card-item::before {
-  background-image: url(../src/images/content/cards/ticks/3.svg);
+  background-image: url(../../src/images/content/cards/ticks/3.svg);
   background-color: #D4E7DD;
 }
 .content__card:nth-child(4) .content__card-list .content__card-item::before {
-  background-image: url(../src/images/content/cards/ticks/4.svg);
+  background-image: url(../../src/images/content/cards/ticks/4.svg);
   background-color: #FDF4DB;
 }
 .content__card:nth-child(5) .content__card-list .content__card-item::before {
-  background-image: url(../src/images/content/cards/ticks/5.svg);
+  background-image: url(../../src/images/content/cards/ticks/5.svg);
   background-color: #FEEFEF;
 }
 @media (max-width: 1000px) {
