@@ -217,7 +217,7 @@ body {
 }
 .content::before {
   transition: all 0.5s;
-  content: url(../../src/images/content/background.svg);
+  content: url(./src/images/content/background.svg);
   position: absolute;
   z-index: -1;
   filter: var(--filter, "");

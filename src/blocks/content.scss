@@ -9,7 +9,7 @@
 
   &::before {
     transition: all .5s;
-    content: url(../../src/images/content/background.svg);
+    content: url(./src/images/content/background.svg);
     position: absolute;
     z-index: -1;  
 
