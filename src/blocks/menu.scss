@@ -33,6 +33,7 @@
   &__text {
     margin-bottom: 38px;
 
+    font-family: "Quincy CF";
     font-size: 20px;
     line-height: 150%;
     color: #000000;
@@ -63,7 +64,10 @@
     padding: 12px 15px 12px 12px;
 
     background: rgba(90, 88, 207, 0.15);
+    border: 2px solid transparent;
     border-radius: 100px;
+
+    transition: border .3s;
 
     @for $i from 1 through length($button-bgcs) {
       $color: nth($button-bgcs, $i);
@@ -75,6 +79,10 @@
 
     @media (max-width: 600px) {
       padding: 8px 10px 8px 8px;
+    }
+
+    &:hover {
+      border: 2px solid black;
     }
   }
 

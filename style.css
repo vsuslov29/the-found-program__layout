@@ -63,12 +63,17 @@ a {
 
 @font-face {
   font-family: "Greycliff CF";
-  src: url("./fonts/greycliffcf-regular.otf") format("otf");
+  src: url("/src/fonts/GreycliffCF-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Quincy CF";
+  src: url("/src/fonts/QuincyCF-Regular.woff") format("woff");
 }
 body {
   display: flex;
   height: 100vh;
   font-family: "Greycliff CF";
+  font-weight: 200;
   overflow: hidden;
 }
 @media (max-width: 1000px) {
@@ -112,6 +117,7 @@ body {
 }
 .menu__text {
   margin-bottom: 38px;
+  font-family: "Quincy CF";
   font-size: 20px;
   line-height: 150%;
   color: #000000;
@@ -134,7 +140,9 @@ body {
   gap: 10px;
   padding: 12px 15px 12px 12px;
   background: rgba(90, 88, 207, 0.15);
+  border: 2px solid transparent;
   border-radius: 100px;
+  transition: border 0.3s;
 }
 .menu__link--1 {
   background-color: rgba(90, 88, 207, 0.1490196078);
@@ -155,6 +163,9 @@ body {
   .menu__link {
     padding: 8px 10px 8px 8px;
   }
+}
+.menu__link:hover {
+  border: 2px solid black;
 }
 .menu__item {
   opacity: 0.5;
