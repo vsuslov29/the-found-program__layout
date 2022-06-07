@@ -63,17 +63,16 @@ a {
 
 @font-face {
   font-family: "Greycliff CF";
-  src: url("/src/fonts/GreycliffCF-Regular.woff") format("woff");
+  src: url("./src/fonts/GreycliffCF-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "Quincy CF";
-  src: url("/src/fonts/QuincyCF-Regular.woff") format("woff");
+  src: url("./src/fonts/QuincyCF-Regular.woff") format("woff");
 }
 body {
   display: flex;
   height: 100vh;
   font-family: "Greycliff CF";
-  font-weight: 200;
   overflow: hidden;
 }
 @media (max-width: 1000px) {
