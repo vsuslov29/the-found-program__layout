@@ -1,12 +1,12 @@
 # The Found Program Layout
 
 - [DEMO](https://vsuslov29.github.io/the-found-program__layout/)
+- [FIGMA](https://www.figma.com/file/tsaOUzmZSwvEJ51CqLnQHq/Test-file-(Copy)?node-id=1%3A574)
 
 ## Local development
 
 ### Installing
 * Fork and clone this repository
 * Run `npm install` in your terminal
-* Run `npm start`
-* Start sass compiler `sass src/main.scss style.css --watch`
+* Start sass compiler `npm run sass`
 * Run `live server` plugin from `index.html`
